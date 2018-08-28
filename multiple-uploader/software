@@ -1,0 +1,4 @@
+3 XDS   ?       ?       package "Wolfgang.Kabsch" Wolfgang.Kabsch@mpimf-heidelberg.mpg.de "data reduction"      http://xds.mpimf-heidelberg.mpg.de/ fortran
+4 AIMLESS       ?       ?       package "Phil Evans" pre@mrc-lmb.cam.ac.uk "data scaling" http://www.ccp4.ac.uk/html/aimless.html C++
+5 PHASER        ?       ?       package "Randy Read" rjr27@cam.ac.uk    "phasing" http://www.phaser.cimr.cam.ac.uk/index.php/Phaser_Crystallographic_Software C++
+

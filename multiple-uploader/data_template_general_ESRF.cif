@@ -1,0 +1,130 @@
+data_UNNAMED
+#
+_pdbx_database_status.entry_id                       UNNAMED
+_pdbx_database_status.dep_release_code_coordinates   'HOLD FOR PUBLICATION' 
+_pdbx_database_status.dep_release_code_sequence      'RELEASE NOW' 
+# 
+_exptl_crystal_grow.crystal_id      1 
+_exptl_crystal_grow.method          'VAPOR DIFFUSION, HANGING DROP' 
+_exptl_crystal_grow.pH              7.5
+_exptl_crystal_grow.temp            298 
+_exptl_crystal_grow.pdbx_details    "0.1 M HEPES pH 7.5, 8-11% PEG 8000 and 4-8% 1-butanol"
+#
+_diffrn.id                     1 
+_diffrn.ambient_temp           100 
+_diffrn.crystal_id             1 
+#
+_diffrn_source.diffrn_id                       1 
+_diffrn_source.source                          SYNCHROTRON 
+_diffrn_source.type                            "ESRF BEAMLINE ID23-1"
+_diffrn_source.pdbx_wavelength_list            0.91841
+# 
+_diffrn_detector.detector               PIXEL 
+_diffrn_detector.type                   'DECTRIS PILATUS 6M' 
+_diffrn_detector.pdbx_collection_date   2013-11-13 
+_diffrn_detector.diffrn_id              1 
+#
+_diffrn_radiation.diffrn_id                        1 
+_diffrn_radiation.wavelength_id                    1 
+_diffrn_radiation.pdbx_monochromatic_or_laue_m_l   M 
+_diffrn_radiation.pdbx_diffrn_protocol             'SINGLE WAVELENGTH' 
+# 
+_diffrn_radiation_wavelength.id           1 
+_diffrn_radiation_wavelength.wavelength   0.91841
+#
+# 
+
+loop_
+_entity.id 
+_entity.type 
+_entity.src_method 
+_entity.ndb_number_of_molecules
+_entity.pdbx_description 
+1 polymer     man 4.0 "Oxacillinase-48"                                                                   
+# 
+loop_
+_entity_poly.entity_id 
+_entity_poly.type 
+_entity_poly.pdbx_seq_one_letter_code 
+_entity_poly.pdbx_seq_db_id                        
+_entity_poly.pdbx_seq_db_name                     
+1 "polypeptide(L)" 
+;KEWQENKSWNAHFTEHKSQGVVVLWNENKQQGFTNNLKRANQAFLPASTF(KCX)IPNSLIALD
+LGVVKDEHQVFKWDGQTRDIATWNRDHNLITAMKYSVVPVYQEFARQIGEARMSKMLHAF
+DYGNEDISGNVDSFWLDGGIRISATEQISFLRKLYHNKLHVSERSQRIVKQAMLTEANGD
+YIIRAKTGYSTRIEPKIGWWVGWVELDDNVWFFAMNMDMPTSDGLGLRQAITKEVLKQEK
+IIP
+;
+Q6XEC0 UNP 
+_entity_poly.pdbx_strand_id A,B,C,D
+loop_
+_entity_src_gen.entity_id 
+_entity_src_gen.pdbx_gene_src_scientific_name 
+_entity_src_gen.pdbx_gene_src_ncbi_taxonomy_id 
+_entity_src_gen.pdbx_host_org_scientific_name 
+_entity_src_gen.pdbx_host_org_ncbi_taxonomy_id 
+1 "Klebsiella Pneumoniae" 573  "Escherichia coli" 562  
+# 
+#
+# 
+loop_
+_software.classification 
+_software.name 
+refinement         PHENIX   
+"data scaling"     AIMLESS           
+"data reduction"   XDS               
+phasing            PHASER        
+# 
+_pdbx_contact_author.id                  1 
+_pdbx_contact_author.address_1           "Institutt for kjemi, Fakultet for Naturvitenskap og Teknologi, UiT Norges arktiske universitet" 
+_pdbx_contact_author.address_2           "Postboks 6050 Langnes"
+_pdbx_contact_author.city                "Tromso" 
+_pdbx_contact_author.state_province      'Troms' 
+_pdbx_contact_author.postal_code         9037 
+_pdbx_contact_author.email               hanna-kirsti.leiros@uit.no
+_pdbx_contact_author.name_first          "Hanna-Kirsti Schrøder" 
+_pdbx_contact_author.name_last           Leiros 
+_pdbx_contact_author.country             Norway 
+_pdbx_contact_author.phone               004777645706
+_pdbx_contact_author.role                "principal investigator/group leader" 
+_pdbx_contact_author.organization_type   academic 
+
+_citation.id                        primary 
+_citation.title                     
+;A focused fragment library targeting the antibiotic resistance enzyme - oxacillinase-48: synthesis, structural evaluation and inhibitor design
+;
+_citation.journal_abbrev            'Eur. J. Med. Chem.' 
+# 
+loop_
+_citation_author.citation_id 
+_citation_author.name 
+primary "Ahkter, S."   
+primary "Lund,B.A."         
+primary "Ismael,A."           
+primary "Lange,M."           
+primary "Isaksson,J."          
+primary "Christopeit, T."     
+primary "Leiros, H.K.S."    
+primary "Bayer,A."      
+# 
+_struct.entry_id                     UNNAMED 
+_struct.title                        
+;OXA-48 IN COMPLEX WITH 
+;
+# 
+_struct_keywords.entry_id        UNNAMED 
+_struct_keywords.text            "Oxacillinase, Inhibitor, Complex, OXA, Antibiotic resistance, beta-lactamase,fragment"
+#
+_pdbx_struct_assembly_depositor_info.id                   1 
+_pdbx_struct_assembly_depositor_info.method_details       'gel filtration'  
+_pdbx_struct_assembly_depositor_info.oligomeric_count     2 
+# 
+_audit_author.name "Lund, B. A."         
+_audit_author.pdbx_ordinal               1
+
+_refine.pdbx_ls_cross_valid_method              THROUGHOUT
+_refine.pdbx_starting_model                      'PDB ENTRY: 5dtk' 
+_refine.pdbx_method_to_determine_struct          'MOLECULAR REPLACEMENT' 
+_struct_biol.pdbx_aggregation_state DIMER
+_struct_biol.pdbx_assembly_method PISA
+
