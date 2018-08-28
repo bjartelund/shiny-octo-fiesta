@@ -1,0 +1,3 @@
+/home/bjartel/bin/pymol/pymol $1 -c -d "save omitwaters-activesite.pdb, not (resn HOH within 15 of resi 250);exit"
+phenix.maps omitwaters-activesite.pdb $2
+coot -p omitwaters-activesite.pdb -m omitwaters-activesite_map_coeffs.mtz
