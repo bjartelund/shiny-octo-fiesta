@@ -1,0 +1,3 @@
+Load trajectory and model by starting pymol with the analyse-rotamer-startup.pml-file (adapted for your filenames).
+Once loaded, run analyse-rotamer.py, close pymol once the animation stops
+the resulting log-file (dihedrals-s118.txt) may be plotted directly with gnuplot to show the dihedral angle over the 500 frames(adaptable of course)
