@@ -1,0 +1,5 @@
+cmd.set("movie_loop", False)
+cmd.mset("1 -500")
+cmd.log_open("dihedrals-s118.txt")
+for frame in range(1,500): cmd.mdo(frame,"""cmd.log(str(cmd.get_dihedral('/OXA-436-A-MAESTROQ_top///SER`94/OG','/OXA-436-A-MAESTROQ_top///SER`94/CB','/OXA-436-A-MAESTROQ_top///SER`94/CA','/OXA-436-A-MAESTROQ_top///SER`94/N'))+'\\n')""")
+cmd.mplay()
